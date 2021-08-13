@@ -63,9 +63,12 @@ form input{
 }
 #details-display-header{
     border-bottom: 2px solid lightgrey;
-
+    
 }
 
+ul:nth-child(even){
+    background-color: lightgrey;
+}
 
 ul li{
     list-style: none;
@@ -74,9 +77,9 @@ ul li{
     font-family: sans-serif;
     font-size: 1rem;
 }
-#details-display-header ul li{
+/* #details-display-header ul li{
     padding-left: 0px;
-}
+} */
 .details-display {
     display: flex;
     flex-direction: row;
@@ -84,13 +87,11 @@ ul li{
 }
 
 /* Student details list styling */
-#display-container{
+/* #display-container{
     display: flex;
     flex-direction: column;
-}
-#display-container>div>ul:nth-child(2n){
-    background-color: whitesmoke;
-}
+} */
+
 /* Making the website responsive */
 @media screen and (max-width: 900px) {
     main{

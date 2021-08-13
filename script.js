@@ -13,9 +13,12 @@ $('#submit-btn').click(function(e){
 
         let items = '<ul class="details-display"> <li>'+ roll +'</li> <li>'+ name +'</li> <li>'+ marks +'</li> </ul>';
 
-        $('#details-container').append(items);
+        $('#display-container').append(items);
 
-        console.log(roll, name, marks);
+        // console.log(roll, name, marks);
+        $('#roll').val("");
+        $('#name').val("");
+        $('#marks').val("");
 
     }
 
