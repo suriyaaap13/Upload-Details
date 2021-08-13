@@ -4,6 +4,7 @@
             Recruiter-Page
         </title>
         <link rel="stylesheet" href="./style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         
@@ -20,19 +21,19 @@
                         <span>
                             Roll No
                         </span>
-                        <input type="text" name="roll-no" required>
+                        <input type="text" name="roll-no" id="roll" required>
                     </div>
                     <div class="input-details">
                         <span>
                             Name
                         </span>
-                        <input type="text" name="name" required>
+                        <input type="text" name="name" id="name" required>
                     </div>
                     <div class="input-details">
                         <span>
                             Marks
                         </span>
-                        <input type="text" name="marks" required>
+                        <input type="text" name="marks" id="marks" required>
                     </div>
                     <button id="submit-btn">
                         Add Details
@@ -61,60 +62,7 @@
                 </div>
 
 
-                <div id="display-container">                                         </A>
-                    
-                    <div>
-
-                        <ul class="details-display">
-                            <li>
-                                30
-                            </li>
-                            <li>
-                                Suriyaa
-                            </li>
-                            <li>
-                               100
-                            </li>
-                        </ul>
-
-                        <ul class="details-display">
-                            <li>
-                                19
-                            </li>
-                            <li>
-                                Meenal
-                            </li>
-                            <li>
-                               60
-                            </li>
-                        </ul>
-
-                        <ul class="details-display">
-                            <li>
-                                27
-                            </li>
-                            <li>
-                                Ram
-                            </li>
-                            <li>
-                               90
-                            </li>
-                        </ul>
-
-                        <ul class="details-display">
-                            <li>
-                                29
-                            </li>
-                            <li>
-                                Raja Gopalan
-                            </li>
-                            <li>
-                               80
-                            </li>
-                        </ul>
-                        
-
-                    </div>
+                <div id="display-container">  
 
 
                 </div>
@@ -124,6 +72,10 @@
 
 
         </main>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+        <script src="script.js"></script>
 
     </body>
 </html>
